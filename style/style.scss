@@ -1,0 +1,175 @@
+$lightGrey: #d1d1d1;
+$darkGrey: #565656;
+$purple: #A7183F;
+$orange: #F0493F;
+$white: #fff;
+// $sideBarWidth: 20%;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Avenir", sans-serif;
+    font-size: 16px;
+    background-color: rgba($color: $lightGrey, $alpha: 0.1);
+    color: $darkGrey;
+}
+
+.main-container {
+    height: 100%;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: box;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -ms-box-orient: horizontal;
+    box-orient: horizontal;
+}
+
+//Side bar
+
+.side-bar {
+    position: fixed;
+    display: flex;
+    background: $white;
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -ms-box-flex: 0;
+    box-flex: 0;
+    height: 100vh;
+    -webkit-box-shadow: -50px 0px 100px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: -50px 0px 100px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: -50px 0px 100px 10px rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+}
+
+.main {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-box-flex: 1;
+    box-flex: 1;
+}
+
+.logo img{
+    display: flex;
+    margin: 0 auto;
+    padding: 5% 0 5% 0;
+    width: 45%;
+}
+
+.avatar{
+    margin-top: 10px;
+}
+.avatar img{
+    border-radius: 200px;
+    width: 33%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.avatar-name{
+    text-align: center;
+}
+.main-ul{
+    border-top: 1px $lightGrey solid;
+    padding-top: 0px;
+    position: relative;
+    top: 21%;
+    transform: translateY(-50%);
+}
+
+.menu-highlight{
+    margin-top: -1px;
+    width: 8px;
+    height: 47px;
+    z-index: 2;
+    float: left;
+    background: #f0493f;
+    background: -moz-linear-gradient(top, #f0493f 2%, #a7183f 100%);
+    background: -webkit-linear-gradient(top, #f0493f 2%, #a7183f 100%);
+    background: linear-gradient(to bottom, #f0493f 2%, #a7183f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0493f', endColorstr='#a7183f', GradientType=0);
+}
+
+.main-ul .main-li {
+    line-height: 2;
+    font-size: 1.1em;
+    border-bottom: 1px $lightGrey solid;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: rgba($color: $darkGrey, $alpha: 0.60);
+    font-weight: 500;
+    padding-left: 25px;
+}
+.main-ul .active{
+    color: rgba($color: $darkGrey, $alpha: 10);
+}
+.main-ul .main-li .menu-arrow{
+    float: right;
+    padding-right: 20px;
+    font-size: 1.4em;
+    padding-top: 4px;
+}
+
+.logout{
+    cursor: pointer;
+    align-self: center;
+    position: fixed;
+    bottom: 5%;
+}
+.logout-btn{
+    text-align: center;
+    background-color: $lightGrey;
+    color: $white;
+    border-radius: 20px;
+    padding: 7px 18px;
+    font-weight: 300;
+}
+
+//Header
+.h1{
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.contact-btn{
+    border-radius: 25px;
+    background-color: $lightGrey;
+    color: $white;
+    text-align: center;
+    margin-top: 16px;
+    padding: 6px 0;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.notification-btn{
+    text-align: center;
+    float: none;
+    margin-top: 17px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: $darkGrey;
+    color: $white;
+    padding-top: 8px;
+    cursor: pointer;
+
+    background: #a7183f;
+    background: -moz-linear-gradient(45deg, #a7183f 0%, #f0493f 100%);
+    background: -webkit-linear-gradient(45deg, #a7183f 0%, #f0493f 100%);
+    background: linear-gradient(45deg, #a7183f 0%, #f0493f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7183f', endColorstr='#f0493f', GradientType=1);
+}
+
+.header .fa-bell:before {
+    margin-left: -4px;
+}
+    
