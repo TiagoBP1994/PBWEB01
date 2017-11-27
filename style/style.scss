@@ -3,7 +3,7 @@ $darkGrey: #565656;
 $purple: #A7183F;
 $orange: #F0493F;
 $white: #fff;
-// $sideBarWidth: 20%;
+$sideBarWidth: 20%;
 
 *{
     margin: 0;
@@ -15,6 +15,24 @@ body{
     font-size: 16px;
     background-color: rgba($color: $lightGrey, $alpha: 0.1);
     color: $darkGrey;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.7em;
 }
 
 .main-container {
@@ -46,6 +64,7 @@ body{
     -moz-box-shadow: -50px 0px 100px 10px rgba(0, 0, 0, 0.4);
     box-shadow: -50px 0px 100px 10px rgba(0, 0, 0, 0.4);
     flex-direction: column;
+    width: $sideBarWidth;
 }
 
 .main {
@@ -54,6 +73,9 @@ body{
     -moz-box-flex: 1;
     -ms-box-flex: 1;
     box-flex: 1;
+    width: 80%;
+    overflow-x: hidden;
+    margin-left: $sideBarWidth;
 }
 
 .logo img{
@@ -107,7 +129,21 @@ body{
     font-weight: 500;
     padding-left: 25px;
 }
-.main-ul .active{
+
+.main-li a{
+    color: rgba($color: $darkGrey, $alpha: 0.60);
+    &:hover {
+        color: rgba($color: $darkGrey, $alpha: 0.60);
+        text-decoration: none;
+    }
+    &:focus {
+        color: rgba($color: $darkGrey, $alpha: 0.60);
+        text-decoration: none;
+    }
+}
+
+
+.main-ul .active a{
     color: rgba($color: $darkGrey, $alpha: 10);
 }
 .main-ul .main-li .menu-arrow{
@@ -133,9 +169,13 @@ body{
 }
 
 //Header
-.h1{
-    text-transform: uppercase;
-    font-size: 2em;
+
+.header .col-sm-10, .header .col-sm-2 {
+    padding: 0;
+}
+
+.header{
+    padding: 0;
 }
 
 .contact-btn{
@@ -147,12 +187,14 @@ body{
     padding: 6px 0;
     font-size: 1.1em;
     cursor: pointer;
-    margin-right: 20px;
+    margin-left: 4.5%;
+    width: 100px;
+    float: left;
 }
 
 .notification-btn{
     text-align: center;
-    float: none;
+    float: right;
     margin-top: 17px;
     border-radius: 50%;
     width: 35px;
@@ -161,7 +203,6 @@ body{
     color: $white;
     padding-top: 8px;
     cursor: pointer;
-
     background: #a7183f;
     background: -moz-linear-gradient(45deg, #a7183f 0%, #f0493f 100%);
     background: -webkit-linear-gradient(45deg, #a7183f 0%, #f0493f 100%);
@@ -170,6 +211,275 @@ body{
 }
 
 .header .fa-bell:before {
-    margin-left: -4px;
+    font-size: 1.1em;
 }
     
+//Profile Completion
+.profile-completion-section {
+    background-color: $white;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin-top: 30px;
+}
+
+.profile-completion-section h2 {
+    padding: 0;    
+    padding-left: 25px;
+    padding-top: 10px;
+    float: left;
+}
+
+.close-btn{
+    margin-top: 25px;
+    padding-top: 3px;  
+    font-size: 1.3em;
+    margin-right: 25px;
+    background-color: $darkGrey;
+    color: $white;
+    border-radius: 200px;
+    width: 35px;
+    text-align: center;
+    height: 35px;
+    float: right;
+    cursor: pointer;
+}
+
+.close-btn .fa-close{
+    font-size: 0.9em;
+}
+
+.completion-level{
+    margin-top: 130px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.circle-bg{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: $lightGrey;
+    height: 15px;
+    border-radius: 15px;
+}
+
+.circle-fg {
+    z-index: 1;
+    float: left;
+    width: 67%;
+    margin-left: 10%;
+    height: 15px;
+    border-radius: 15px;
+    background: #a7183f;
+    background: -moz-linear-gradient(left, #a7183f 0%, #f0493f 100%);
+    background: -webkit-linear-gradient(left, #a7183f 0%, #f0493f 100%);
+    background: linear-gradient(to right, #a7183f 0%, #f0493f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7183f', endColorstr='#f0493f', GradientType=1);
+}
+
+.circle-percent{
+    font-size: 1.8em;
+    font-weight: 600;
+    color: $darkGrey;
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+}
+
+.complete-profile{
+    padding-right: 25px;
+}
+
+.complete-profile a {
+    float: right;
+    color: $darkGrey;
+    margin-bottom: 20px;
+    &:hover {
+        text-decoration:  none;
+    }
+    &:visited {
+        color: $darkGrey;
+    }
+}
+
+.complete-profile a .fa-angle-right:before{
+    color: $purple;
+}
+
+.profile-completion-header h2{
+    float: left;
+    padding-left: 25px;
+}
+
+.curent-assignment-section{
+    margin-top: 30px;
+    padding: 0;
+    background-color: $white;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-completion-header{
+    padding-left: 25px;
+}
+
+.type-of-job{
+    padding-right: 25px;
+}
+
+.type-of-job h3{
+    font-size: 1.6em;
+    float: right;
+    margin-top: -38px;
+}
+
+.email{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.email span {
+    padding-right: 5px;
+}
+
+.company span {
+    padding-right: 5px;
+}
+.assignment-completion-level{
+    margin-top: 50px;
+}
+
+.completion-line {
+    border-radius: 50%;
+}
+
+.line-bg {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: $lightGrey;
+    height: 15px;
+    border-radius: 15px;
+}
+
+.line-fg {
+    z-index: 1;
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+    height: 15px;
+    border-radius: 15px;
+    background: #a7183f;
+    background: -moz-linear-gradient(left, #a7183f 0%, #f0493f 100%);
+    background: -webkit-linear-gradient(left, #a7183f 0%, #f0493f 100%);
+    background: linear-gradient(to right, #a7183f 0%, #f0493f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7183f', endColorstr='#f0493f', GradientType=1);
+}
+
+.days-left{
+        font-size: 1.3em;
+        font-weight: 600;
+        color: $darkGrey;
+        text-align: center;
+        margin: 20px 0px 60px 0px;
+}
+
+//Job highlights
+.job-highlight-section{
+    margin-top: 30px;
+    padding: 0;
+    margin-bottom: 100px;
+    background-color: $white;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.job-highlight-section h2{
+    padding-left: 25px;
+}
+
+.job-container{
+    padding: 0px 25px 10px 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-right: 1px solid $lightGrey;
+}
+
+.job-title{
+    font-size: 20px;
+}
+
+.job-company{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.job-company .fa-group{
+    padding-right: 3px;
+}
+.job-location .fa-map-marker {
+    padding-right: 8px;
+    padding-left: 4px;
+}
+
+.detail{
+    font-size: 18px;
+}
+
+.job-description-container{
+    padding-bottom: 10px;
+}
+
+.job-description{
+    font-weight: 300;
+}
+.read-more{
+    color: $darkGrey;
+    &:hover {
+        color: $darkGrey;
+        text-decoration: none;
+    }
+}
+
+.read-more a{
+    &:hover {
+        color: $darkGrey;
+        text-decoration: none;
+            &:focus {
+                color: $darkGrey;
+                text-decoration: none;
+            }
+    }
+    &:focus {
+        color: $darkGrey;
+        text-decoration: none;
+    }
+}
+
+.read-more span{
+    color: $purple;
+    &:hover{
+        color: $darkGrey;
+    }
+}
+
+.no-border-right {
+    border-right: $white solid 1px;
+}
+
+
+@media screen and (max-width: 991px) {
+        .side-bar, .side-header {
+        display: none;
+    }
+    .main {
+        width: 100%;
+        margin-left: 0;
+    }
+}

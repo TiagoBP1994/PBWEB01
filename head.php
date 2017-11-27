@@ -31,15 +31,17 @@
                     <ul class="main-ul">
                         <div class="menu-highlight"></div>
                         <li class="main-li active">
-                            <span class="menu-element">Dashboard</span>
-                            <span class="menu-arrow fa fa-angle-right"></span>
+                            <a href="#">
+                                <span class="menu-element">Dashboard</span>
+                                <span class="menu-arrow fa fa-angle-right"></span>
+                            </a>
                         </li>
-                        <li class="main-li"><span class="menu-element">Browe Job</span>
-                        <span class="menu-arrow fa fa-angle-right"></span></li>
-                        <li class="main-li"><span class="menu-element">News</span>
-                        <span class="menu-arrow fa fa-angle-right"></span></li>
-                        <li class="main-li"><span class="menu-element">Account</span>
-                        <span class="menu-arrow fa fa-angle-right"></span></li>
+                        <li class="main-li"><a href="#"><span class="menu-element">Browe Job</span>
+                        <span class="menu-arrow fa fa-angle-right"></span></a></li>
+                        <li class="main-li"><a href="#"><span class="menu-element">News</span>
+                        <span class="menu-arrow fa fa-angle-right"></span</a></li>
+                        <li class="main-li"><a href="#"><span class="menu-element">Account</span>
+                        <span class="menu-arrow fa fa-angle-right"></span></a></li>
                     </ul>
 
                     <div class="logout">
@@ -47,8 +49,16 @@
                     </div>
                     
                 </div>
-                <div class="main">
-
-
-<div class="container">
-    <div class="row">
+                
+                    <div class="container">
+                        <div class="row">
+                            <div class="main col-sm-10">
+                            <div class="header col-sm-12">
+                                <h1 class="h1 col-sm-10">Dashboard</h1>
+                                <div class="side-header col-sm-2">
+                                    <div class="contact-btn">contact</div>
+                                    <div class="notification-btn">
+                                        <div class="fa fa-bell"></div>        
+                                    </div>
+                                </div>
+                            </div>
