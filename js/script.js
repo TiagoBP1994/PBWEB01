@@ -8,12 +8,12 @@ $(document).ready(function (){
    $('.main-container .side-bar .close-menu').click(function () {
         $('.side-bar').addClass('hide');
         $('.side-bar').removeClass('show-flex');
-   });
-
-   $('.mobile-header .mobile-menu').click(function () {
+    });
+    $('.main-container .mobile-header .mobile-menu').click(function () {
         $('.side-bar').addClass('show-flex');
         $('.side-bar').removeClass('hide');
    });
+
 
    $('.job-container:last').addClass("no-border-right");
    $('.news-container:last').addClass("no-border-right");
