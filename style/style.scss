@@ -25,6 +25,10 @@ body{
     display: block;
 }
 
+.show-flex{
+    display: flex;
+}
+
 h1 {
     text-transform: uppercase;
     font-size: 2em;
@@ -65,6 +69,12 @@ h2 {
     box-shadow: -50px 0px 100px 10px rgba(0, 0, 0, 0.4);
     flex-direction: column;
     width: $sideBarWidth;
+
+    @media screen and (max-width: 991px) {
+        width: 100%;
+        z-index: 3;
+    }
+    
 }
 
 .main {
@@ -78,15 +88,82 @@ h2 {
     margin-left: $sideBarWidth;
 }
 
-.logo img{
+.container{
+          @media screen and (max-width: 991px) {
+              margin-top: 90px;
+          }
+}
+
+.mobile-header{
+    background-color: $white;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+
+      @media screen and (min-width: 991px) {
+          display: none;
+      }
+}
+
+.side-bar .logo img{
     display: flex;
     margin: 0 auto;
     padding: 5% 0 5% 0;
     width: 45%;
+    @media screen and (max-width: 991px) {
+        margin-top: 5px;
+        width: 80%;
+        padding: 0;
+        display: none;
+    }
+}
+.mobile-header .logo{
+    text-align: center;
+    padding-top: 6px;
+}
+
+.mobile-header .logo img{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+        @media screen and (min-width: 991px) {
+            display: none;
+        }
+}
+
+.mobile-menu{
+    background: $darkGrey;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+    @media screen and (min-width: 991px) {
+        display: none;
+    }
+}
+.mobile-menu span{
+    color: $white;
+    font-size: 1.3em;
+    padding-top: 7px;
 }
 
 .avatar{
     margin-top: 10px;
+     @media screen and (max-width: 991px) {
+        margin-top: 40px;
+     }
 }
 .avatar img{
     border-radius: 200px;
@@ -94,10 +171,40 @@ h2 {
     display: flex;
     margin: 0 auto;
     margin-bottom: 15px;
+    @media screen and (min-width: 640px) {
+        width: 20%;
+    }
+    @media screen and (min-width: 991px) {
+        width: 33%;
+    }
 }
 .avatar-name{
     text-align: center;
 }
+
+.close-menu{
+    position: fixed;
+    background-color: $darkGrey;
+    width: 35px;
+    height: 35px;
+    right: 20px;
+    top: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: 991px) {
+        display: none;
+    }
+}
+
+.close-menu span{
+    text-align: center;
+    color: $white;
+    font-size: 1.3em;
+    padding-top: 6px;
+}
+
 .main-ul{
     border-top: 1px $lightGrey solid;
     padding-top: 0px;
@@ -208,6 +315,11 @@ h2 {
     background: -webkit-linear-gradient(45deg, #a7183f 0%, #f0493f 100%);
     background: linear-gradient(45deg, #a7183f 0%, #f0493f 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7183f', endColorstr='#f0493f', GradientType=1);
+          @media screen and (max-width: 991px) {
+                float: none;
+                margin-left: 20px;
+                margin-top: 20px;
+          }
 }
 
 .header .fa-bell:before {
@@ -244,6 +356,12 @@ h2 {
     height: 35px;
     float: right;
     cursor: pointer;
+
+    @media  screen and (max-width: 911px){
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+
 }
 
 .close-btn .fa-close{
@@ -252,10 +370,16 @@ h2 {
 
 .completion-level{
     margin-top: 130px;
+    @media screen and (max-width: 991px) {
+        margin-top: 30px;
+    }
 }
 
 .circle{
     border-radius: 50%;
+    @media screen and (max-width: 911px){
+        padding-top: 90px;
+    }
 }
 
 .circle-bg{
@@ -291,6 +415,12 @@ h2 {
 
 .complete-profile{
     padding-right: 25px;
+
+    @media screen and (max-width: 991px){
+        padding-bottom: 45px;
+        margin-top: -10px;
+    }
+
 }
 
 .complete-profile a {
@@ -325,10 +455,20 @@ h2 {
 
 .assignment-completion-header{
     padding-left: 25px;
+
+   @media screen and (max-width: 991px) {
+        padding-top: 10px;
+   }
+
 }
 
 .type-of-job{
     padding-right: 25px;
+
+    @media screen and (max-width: 991px){
+        display: none;
+    }
+
 }
 
 .type-of-job h3{
@@ -346,11 +486,21 @@ h2 {
     padding-right: 5px;
 }
 
+.email a{
+    color: $darkGrey;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
 .company span {
     padding-right: 5px;
 }
 .assignment-completion-level{
     margin-top: 50px;
+    @media screen and (max-width: 991px){
+        margin-top: 30px;
+    }
 }
 
 .completion-line {
@@ -381,43 +531,53 @@ h2 {
 }
 
 .days-left{
-        font-size: 1.3em;
-        font-weight: 600;
-        color: $darkGrey;
-        text-align: center;
-        margin: 20px 0px 60px 0px;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: $darkGrey;
+    text-align: center;
+    margin: 20px 0px 60px 0px;
+
+    @media screen and (max-width: 991px){
+        padding-bottom: 20px;
+    }
+
 }
 
-//Job highlights
-.job-highlight-section{
+//Job highlights + News highlights
+.job-highlight-section, .news-highlight-section{
     margin-top: 30px;
     padding: 0;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     background-color: $white;
     -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
-.job-highlight-section h2{
+    .job-highlight-section h2, .news-highlight-section h2 {
     padding-left: 25px;
+
+    @media screen and (max-width: 911px){
+        padding-top: 20px;
+    }
+
 }
 
-.job-container{
+    .job-container, .news-container {
     padding: 0px 25px 10px 25px;
     margin-top: 10px;
     margin-bottom: 25px;
     border-right: 1px solid $lightGrey;
 }
 
-.job-title{
+.job-title, .news-title{
     font-size: 20px;
 }
 
 .job-company{
     margin: 0;
     padding-top: 10px;
-    padding-bottom: 3px;
+    padding-bottom: 6px;
 }
 
 .job-company .fa-group{
@@ -428,15 +588,31 @@ h2 {
     padding-left: 4px;
 }
 
+.news-author span{
+   padding-right: 5px; 
+}
+
+.job-date span{
+    padding-right: 5px;
+}
+
+.assignment-completion-header .details{
+    @media screen and (max-width: 991px){
+        padding-top: 10px;
+    }
+}
+
 .detail{
     font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 3px;
 }
 
-.job-description-container{
-    padding-bottom: 10px;
+    .job-description-container, .news-description-container {
+    padding-bottom: 15px;
 }
 
-.job-description{
+.job-description, .news.description{
     font-weight: 300;
 }
 .read-more{
@@ -467,6 +643,10 @@ h2 {
     &:hover{
         color: $darkGrey;
     }
+}
+
+.tag{
+    float: right;
 }
 
 .no-border-right {

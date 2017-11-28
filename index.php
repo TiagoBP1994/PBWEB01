@@ -28,8 +28,8 @@
                 <h3>Freelance</h3>
             </div>
             <div class="details">
-                <div class="email"><span class="fa fa-envelope"></span>ScanCommcerce A/S</div>
-                <div class="company"> <span class="fa fa-group"></span>adv@scancommerce.dk</div>
+            <div class="company"><span class="fa fa-group"></span>ScanCommcerce A/S</a></div>
+                <div class="email"><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><span class="fa fa-envelope"></span>adv@scancommerce.dk</a></div>
             </div>
         </div>
         <div class="assignment-completion-level">
@@ -45,7 +45,7 @@
     <div class="job-highlight-section col-sm-12">
         <h2>New Jobs For You</h2>
 
-        <div class="job-container col-sm-4 ">
+        <div class="job-container col-md-4 col-sm-6">
             <h4 class="job-title">Angular Developer</h4>
             <p class="job-company"><span class="fa fa-group"></span>ScanCommerce A/S</p>
             <p class="job-location"><span class="fa fa-map-marker"></span>Aarhus, Denmark</p>
@@ -59,7 +59,7 @@
              <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
         </div>
 
-          <div class="job-container col-sm-4 ">
+          <div class="job-container col-md-4 col-sm-6">
             <h4 class="job-title">Angular Developer</h4>
             <p class="job-company"><span class="fa fa-group"></span>ScanCommerce A/S</p>
             <p class="job-location"><span class="fa fa-map-marker"></span>Aarhus</p>
@@ -73,7 +73,7 @@
              <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
         </div>
 
-          <div class="job-container last col-md-4 ">
+          <div class="job-container col-md-4 col-sm-6">
             <h4 class="job-title">Angular Developer</h4>
             <p class="job-company"><span class="fa fa-group"></span>ScanCommerce A/S</p>
             <p class="job-location"><span class="fa fa-map-marker"></span>Aarhus</p>
@@ -88,6 +88,65 @@
         </div>
 
     </div>
+
+
+
+    <div class="news-highlight-section col-sm-12">
+        <h2>New Jobs For You</h2>
+
+        <div class="news-container col-md-4 col-sm-6">
+            <h4 class="news-title">Behind the Code</h4>
+            <p class="news-author"><span class="fa fa-user"></span>Robert Johnson</p>
+            <p class="job-date"><span class="fa fa-calendar"></span>05/12/2017</p>
+            <div class="news-description-container">
+                <p class="detail">Description</p>
+                <p class="news-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
+                     Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
+                </p>
+            </div>
+            <div class="news-footer">
+                <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
+                <p class="tag">Tech</p>
+            </div>
+        </div>
+
+         <div class="news-container col-md-4 col-sm-6">
+            <h4 class="news-title">Behind the Code</h4>
+            <p class="news-author"><span class="fa fa-user"></span>Robert Johnson</p>
+            <p class="job-date"><span class="fa fa-calendar"></span>05/12/2017</p>
+            <div class="news-description-container">
+                <p class="detail">Description</p>
+                <p class="news-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
+                     Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
+                </p>
+            </div>
+            <div class="news-footer">
+                <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
+                <p class="tag">Tech</p>
+            </div>
+        </div>
+
+        <div class="news-container col-md-4 col-sm-6">
+            <h4 class="news-title">Behind the Code</h4>
+            <p class="news-author"><span class="fa fa-user"></span>Robert Johnson</p>
+            <p class="job-date"><span class="fa fa-calendar"></span>05/12/2017</p>
+            <div class="news-description-container">
+                <p class="detail">Description</p>
+                <p class="news-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
+                     Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
+                </p>
+            </div>
+            <div class="news-footer">
+                <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
+                <p class="tag">Tech</p>
+            </div>
+        </div>
+
+    </div>
+
 
 </div>
 

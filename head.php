@@ -17,48 +17,66 @@
 <body>
 
     <div class="main-container">
-                <div class="side-bar">
 
-                    <div class="logo">
-                        <img src="assets/img/logo_epico_purple.png" alt="Epico Logo">
+        <div class="side-bar">
+
+            <div class="logo">
+                <img src="assets/img/logo_epico_purple.png" alt="Epico Logo">
+            </div>
+
+            <div class="avatar">
+                <img src="assets/img/avatar-male.jpeg" alt="avatar img">
+                <p class="avatar-name">Steffen Rasmussen</p>
+            </div>
+
+            <div class="close-menu">
+                <span class="fa fa-close"></span>
+            </div>
+
+            <ul class="main-ul">
+                <div class="menu-highlight"></div>
+                <li class="main-li active">
+                    <a href="#">
+                        <span class="menu-element">Dashboard</span>
+                        <span class="menu-arrow fa fa-angle-right"></span>
+                    </a>
+                </li>
+                <li class="main-li"><a href="#"><span class="menu-element">Browe Job</span>
+                <span class="menu-arrow fa fa-angle-right"></span></a></li>
+                <li class="main-li"><a href="#"><span class="menu-element">News</span>
+                <span class="menu-arrow fa fa-angle-right"></span</a></li>
+                <li class="main-li"><a href="#"><span class="menu-element">Account</span>
+                <span class="menu-arrow fa fa-angle-right"></span></a></li>
+            </ul>
+
+            <div class="logout">
+                <div class="logout-btn">Logout</div>
+            </div>
+            
+        </div>
+
+              <div class="mobile-header">
+                        <div class="notification-btn">
+                            <div class="fa fa-bell"></div>        
+                        </div>
+                        <div class="logo">
+                            <img src="assets/img/logo_epico_purple.png" alt="Epico Logo">
+                        </div>
+                        <div class="mobile-menu">
+                            <span class="fa fa-bars"></span>
+                        </div>
                     </div>
-
-                    <div class="avatar">
-                        <img src="assets/img/avatar-male.jpeg" alt="avatar img">
-                        <p class="avatar-name">Steffen Rasmussen</p>
-                    </div>
-
-                    <ul class="main-ul">
-                        <div class="menu-highlight"></div>
-                        <li class="main-li active">
-                            <a href="#">
-                                <span class="menu-element">Dashboard</span>
-                                <span class="menu-arrow fa fa-angle-right"></span>
-                            </a>
-                        </li>
-                        <li class="main-li"><a href="#"><span class="menu-element">Browe Job</span>
-                        <span class="menu-arrow fa fa-angle-right"></span></a></li>
-                        <li class="main-li"><a href="#"><span class="menu-element">News</span>
-                        <span class="menu-arrow fa fa-angle-right"></span</a></li>
-                        <li class="main-li"><a href="#"><span class="menu-element">Account</span>
-                        <span class="menu-arrow fa fa-angle-right"></span></a></li>
-                    </ul>
-
-                    <div class="logout">
-                        <div class="logout-btn">Logout</div>
-                    </div>
-                    
-                </div>
-                
-                    <div class="container">
-                        <div class="row">
-                            <div class="main col-sm-10">
-                            <div class="header col-sm-12">
-                                <h1 class="h1 col-sm-10">Dashboard</h1>
-                                <div class="side-header col-sm-2">
-                                    <div class="contact-btn">contact</div>
-                                    <div class="notification-btn">
-                                        <div class="fa fa-bell"></div>        
-                                    </div>
-                                </div>
+        
+            <div class="container">
+                                  
+                <div class="row">
+                    <div class="main col-sm-10">
+                    <div class="header col-sm-12">
+                        <h1 class="h1 col-sm-10">Dashboard</h1>
+                        <div class="side-header col-sm-2">
+                            <div class="contact-btn">contact</div>
+                            <div class="notification-btn">
+                                <div class="fa fa-bell"></div>        
                             </div>
+                        </div>
+                    </div>
