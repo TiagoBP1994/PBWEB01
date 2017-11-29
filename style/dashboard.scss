@@ -1,34 +1,4 @@
-$lightGrey: #d1d1d1;
-$darkGrey: #565656;
-$purple: #A7183F;
-$orange: #F0493F;
-$white: #fff;
-$sideBarWidth: 20%;
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "Avenir", sans-serif;
-    font-size: 16px;
-    background-color: rgba($color: $lightGrey, $alpha: 0.1);
-    color: $darkGrey;
-}
-
-.hide {
-    display: none;
-}
-
-.show {
-    display: block;
-}
-
-.show-flex {
-    display: flex !important;
-}
-
+@import 'setup';
 h1 {
     text-transform: uppercase;
     font-size: 2em;
@@ -569,27 +539,34 @@ h2 {
     border-right: $white solid 1px;
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (max-width: 1199px){
+    .contact-btn{
+        margin-left: -20%;
+    }
+}
 
+@media screen and (min-width: 992px) {
     .mobile-header {
         display: none;
     }
-
     .close-menu {
         display: none;
     }
+    .mobile-header .logo img {
+        display: none;
+    }
+    .mobile-menu {
+        display: none;
+    }
+}
+@media screen and (min-width: 991px) {
+
+
 
     .avatar img {
         width: 33%;
     }
 
-    .mobile-header .logo img {
-        display: none;
-    }
-
-    .mobile-menu {
-        display: none;
-    }
 
 }
 
@@ -681,6 +658,9 @@ h2 {
 
     .avatar {
         margin-top: 40px;
+    }
+    .avatar img{
+        width: 20%;
     }
 
     .complete-profile a {

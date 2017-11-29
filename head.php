@@ -30,18 +30,17 @@
                 <span class="fa fa-close"></span>
             </div>
             <ul class="main-ul">
-                <div class="menu-highlight"></div>
-                <li class="main-li active">
+                <li class="main-li active menu-dashboard">
                     <a href="index.php">
                         <span class="menu-element">Dashboard</span>
                         <span class="menu-arrow fa fa-angle-right"></span>
                     </a>
                 </li>
-                <li class="main-li"><a href="job.php"><span class="menu-element">Browe Job</span>
+                <li class="main-li active menu-job"><a href="job.php"><span class="menu-element">Browse Job</span>
                 <span class="menu-arrow fa fa-angle-right"></span></a></li>
-                <li class="main-li"><a href="news.php"><span class="menu-element">News</span>
-                <span class="menu-arrow fa fa-angle-right"></span</a></li>
-                <li class="main-li"><a href="account.php"><span class="menu-element">Account</span>
+                <li class="main-li active menu-news"><a href="news.php"><span class="menu-element">News</span>
+                <span class="menu-arrow fa fa-angle-right"></span></a></li>
+                <li class="main-li active menu-account"><a href="account.php"><span class="menu-element">Account</span>
                 <span class="menu-arrow fa fa-angle-right"></span></a></li>
             </ul>
             <div class="logout">

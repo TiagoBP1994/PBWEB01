@@ -22,11 +22,37 @@ $(document).ready(function (){
         $('.side-bar').removeClass('hide');
    });
 
- 
-
-
    $('.job-container:last').addClass("no-border-right");
    $('.news-container:last').addClass("no-border-right");
+
+
+   //Sidebar change active class
+
+   function addActiveClass(){
+       //Remove menu highlight
+    //    $(".side-bar .main-ul .menu-highlight").remove();
+    //    $(".side-bar .main-ul .active").removeClass('active');
+
+       var menuHighlight = '<div class="menu-highlight"></div>'
+
+       if ($("#dashboard").length > 0) {
+           $(".side-bar .main-ul .main-li:nth-child(1)").addClass('active');
+           $(menuHighlight).prependTo('.side-bar .main-ul');
+           console.log("dashboard");
+       } 
+
+       if ($("#browse-job").length > 0) {
+           $(".side-bar .main-ul").find('.menu-job').addClass('active');
+           $(menuHighlight).prependTo('.side-bar .main-ul:nth-child(2)');
+           console.log("dashboard");
+       } 
+    
+   }
+
+   addActiveClass();
+
+
+
 
     class Job {
         // constructor(headline, location, description, country) {
@@ -58,7 +84,7 @@ $(document).ready(function (){
         // url: "http://epico.dk/umbraco/surface/home/AllAdvertising",
         success: function (response) {
             let data = response;
-            console.log(data);
+            // console.log(data);
 
         }
     });

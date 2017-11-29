@@ -190,7 +190,7 @@
 		"oAP": "\/signup.php",
 		"oF": 0
 		},
-	"\/style\/style.scss": {
+	"\/style\/browse-job.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -200,7 +200,33 @@
 		"oA": 0,
 		"oAP": "\/production\/style\/style-min.css",
 		"oF": 3,
-		"oS": 3,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/style\/dashboard.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/production\/style\/style-min.css",
+		"oF": 3,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/style\/setup.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/production\/style\/style-min.css",
+		"oF": 3,
+		"oS": 2,
 		"uL": 1
 		}
 	},
