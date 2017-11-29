@@ -1,7 +1,15 @@
 $(document).ready(function (){
 
+    //progress
+    var progression = true;
+
+    if(progression == false){
+        $('.profile-completion-section').addClass('hide');
+    }
+
    $('.profile-completion-header .close-btn').click(function(){
         $(this).parent().parent().fadeOut();
+        var progression = true;
    });
 
 //Toggle menu
@@ -13,6 +21,8 @@ $(document).ready(function (){
         $('.side-bar').addClass('show-flex');
         $('.side-bar').removeClass('hide');
    });
+
+ 
 
 
    $('.job-container:last').addClass("no-border-right");
@@ -45,7 +55,7 @@ $(document).ready(function (){
    //AJAX
     $.ajax({
         type: "GET",  
-        url: "http://epico.dk/umbraco/surface/home/AllAdvertising",
+        // url: "http://epico.dk/umbraco/surface/home/AllAdvertising",
         success: function (response) {
             let data = response;
             console.log(data);

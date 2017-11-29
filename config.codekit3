@@ -111,11 +111,18 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/script-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
+		"oA": 0,
+		"oAP": "\/production\/js\/script-min.js",
+		"oF": 3,
+		"sC": 0,
+		"tS": 1
+		},
+	"\/Log-in.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Log-in.zip",
+		"oF": 0
 		},
 	"\/login.php": {
 		"cB": 0,
@@ -124,12 +131,32 @@
 		"oAP": "\/login.php",
 		"oF": 0
 		},
-	"\/news": {
+	"\/news.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/news",
+		"oAP": "\/news.php",
 		"oF": 0
+		},
+	"\/production\/js\/script-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/production\/js\/script-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/production\/style\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/production\/style\/style-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/README.html": {
 		"cB": 0,
@@ -163,16 +190,6 @@
 		"oAP": "\/signup.php",
 		"oF": 0
 		},
-	"\/style\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/style\/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/style\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -181,9 +198,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style\/style.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "\/production\/style\/style-min.css",
+		"oF": 3,
+		"oS": 3,
 		"uL": 1
 		}
 	},
