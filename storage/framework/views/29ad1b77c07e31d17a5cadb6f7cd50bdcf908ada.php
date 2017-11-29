@@ -46,7 +46,7 @@
                         <?php if(auth()->guard()->guest()): ?>
                             <li><a href="<?php echo e(route('login')); ?>">Login</a></li>
                             <li><a href="<?php echo e(route('register')); ?>">Register</a></li>
-                        <?php else: ?>
+                        <?php else: ?>  
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
                                     <?php echo e(Auth::user()->name); ?> <span class="caret"></span>

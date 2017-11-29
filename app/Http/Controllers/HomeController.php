@@ -23,6 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        //auth()->user()->notify(new newJob());
         return view('home');
     }
 }
