@@ -57,6 +57,36 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/crew-22241.jpg": {
+		"ft": 16384,
+		"iS": 3778333,
+		"oA": 0,
+		"oAP": "\/assets\/img\/crew-22241.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/emile-perron-190221.jpg": {
+		"ft": 16384,
+		"iS": 3004832,
+		"oA": 0,
+		"oAP": "\/assets\/img\/emile-perron-190221.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/ilya-pavlov-87438.jpg": {
+		"ft": 16384,
+		"iS": 2115658,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ilya-pavlov-87438.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/logo_epico.png": {
 		"ft": 32768,
 		"iS": 7110,
@@ -79,6 +109,36 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/neonbrand-226736.jpg": {
+		"ft": 16384,
+		"iS": 2360091,
+		"oA": 0,
+		"oAP": "\/assets\/img\/neonbrand-226736.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/paul-bence-296720.jpg": {
+		"ft": 16384,
+		"iS": 2992747,
+		"oA": 0,
+		"oAP": "\/assets\/img\/paul-bence-296720.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/seth-doyle-188649.jpg": {
+		"ft": 16384,
+		"iS": 2920007,
+		"oA": 0,
+		"oAP": "\/assets\/img\/seth-doyle-188649.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/build\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -98,6 +158,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/job-detail.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/job-detail.php",
 		"oF": 0
 		},
 	"\/job.php": {
@@ -129,6 +196,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/login.php",
+		"oF": 0
+		},
+	"\/news-detail.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/news-detail.php",
 		"oF": 0
 		},
 	"\/news.php": {
@@ -200,7 +274,7 @@
 		"oA": 0,
 		"oAP": "\/production\/style\/style-min.css",
 		"oF": 3,
-		"oS": 2,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/style\/dashboard.scss": {
@@ -213,7 +287,30 @@
 		"oA": 0,
 		"oAP": "\/production\/style\/style-min.css",
 		"oF": 3,
-		"oS": 2,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/style\/news.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style\/news-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/style\/news.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/production\/style\/style-min.css",
+		"oF": 3,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/style\/setup.scss": {
@@ -226,7 +323,7 @@
 		"oA": 0,
 		"oAP": "\/production\/style\/style-min.css",
 		"oF": 3,
-		"oS": 2,
+		"oS": 3,
 		"uL": 1
 		}
 	},

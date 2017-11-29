@@ -13,7 +13,7 @@
             </div>
         </div>
 
-        <div id="dashboard "class="col-sm-12">  
+        <div id="dashboard">  
             <div class="profile-completion-section col-sm-12">
                 <div class="profile-completion-header">
                     <h2>Profile Completion</h2>
@@ -106,56 +106,50 @@
             <div class="news-highlight-section col-sm-12">
                 <h2>New Jobs For You</h2>
 
-                <div class="news-container col-md-4 col-sm-6">
-                    <h4 class="news-title">Behind the Code</h4>
-                    <p class="news-author"><span class="fa fa-user"></span>Robert Johnson</p>
-                    <p class="job-date"><span class="fa fa-calendar"></span>05/12/2017</p>
-                    <div class="news-description-container">
-                        <p class="detail">Description</p>
-                        <p class="news-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
-                            Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
-                        </p>
-                    </div>
-                    <div class="news-footer">
-                        <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
-                        <p class="tag">Tech</p>
-                    </div>
+            <div class="news-container col-md-4 col-sm-6"> 
+                <a href="news-detail.php">
+                <div class="news-img">
+                    <img src="assets/img/ilya-pavlov-87438.jpg" alt="news image">
                 </div>
+                <h4 class="news-title">Behind the Code</h4>
+                <p class="news-author"><span class="fa fa-user"></span>Robert Johnson</p>
+                <p class="news-date"><span class="fa fa-calendar"></span>17/12/2017</p>
+                <div class="news-footer">
+                    <a class="read-more" href="#">Read More<span class="fa fa-angle-right"></span></a>
+                    <div class="category"><span class="fa fa-tag"></span>Tech</div>
+                </div>
+                </a>
+            </div>
 
-                <div class="news-container col-md-4 col-sm-6">
-                    <h4 class="news-title">Behind the Code</h4>
-                    <p class="news-author"><span class="fa fa-user"></span>Robert Johnson</p>
-                    <p class="job-date"><span class="fa fa-calendar"></span>05/12/2017</p>
-                    <div class="news-description-container">
-                        <p class="detail">Description</p>
-                        <p class="news-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
-                            Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
-                        </p>
-                    </div>
-                    <div class="news-footer">
-                        <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
-                        <p class="tag">Tech</p>
-                    </div>
+            <div class="news-container col-md-4 col-sm-6"> 
+                <a href="news-detail.php">
+                <div class="news-img">
+                    <img src="assets/img/ilya-pavlov-87438.jpg" alt="news image">
                 </div>
+                <h4 class="news-title">Behind the Code</h4>
+                <p class="news-author"><span class="fa fa-user"></span>Robert Johnson</p>
+                <p class="news-date"><span class="fa fa-calendar"></span>17/12/2017</p>
+                <div class="news-footer">
+                    <a class="read-more" href="#">Read More<span class="fa fa-angle-right"></span></a>
+                    <div class="category"><span class="fa fa-tag"></span>Tech</div>
+                </div>
+                </a>
+            </div>
 
-                <div class="news-container col-md-4 col-sm-6">
-                    <h4 class="news-title">Behind the Code</h4>
-                    <p class="news-author"><span class="fa fa-user"></span>Robert Johnson</p>
-                    <p class="job-date"><span class="fa fa-calendar"></span>05/12/2017</p>
-                    <div class="news-description-container">
-                        <p class="detail">Description</p>
-                        <p class="news-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
-                            Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
-                        </p>
-                    </div>
-                    <div class="news-footer">
-                        <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
-                        <p class="tag">Tech</p>
-                    </div>
+            <div class="news-container col-md-4 col-sm-6"> 
+                <a href="news-detail.php">
+                <div class="news-img">
+                    <img src="assets/img/ilya-pavlov-87438.jpg" alt="news image">
                 </div>
+                <h4 class="news-title">Behind the Code</h4>
+                <p class="news-author"><span class="fa fa-user"></span>Robert Johnson</p>
+                <p class="news-date"><span class="fa fa-calendar"></span>17/12/2017</p>
+                <div class="news-footer">
+                    <a class="read-more" href="#">Read More<span class="fa fa-angle-right"></span></a>
+                    <div class="category"><span class="fa fa-tag"></span>Tech</div>
+                </div>
+                </a>
+            </div>
             </div>
         </div>
     </div>
