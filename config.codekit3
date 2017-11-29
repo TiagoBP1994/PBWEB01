@@ -16,16 +16,6 @@
 		"oAP": "\/account.php",
 		"oF": 0
 		},
-	"\/assets\/img\/avatar-female.jpeg": {
-		"ft": 16384,
-		"iS": 5963,
-		"oA": 0,
-		"oAP": "\/assets\/img\/avatar-female.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/avatar-male.jpeg": {
 		"ft": 16384,
 		"iS": 6452,
@@ -41,37 +31,6 @@
 		"iS": 4645552,
 		"oA": 0,
 		"oAP": "\/assets\/img\/background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/circle.png": {
-		"ft": 32768,
-		"iS": 9775,
-		"oA": 0,
-		"oAP": "\/assets\/img\/circle.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/crew-22241.jpg": {
-		"ft": 16384,
-		"iS": 3778333,
-		"oA": 0,
-		"oAP": "\/assets\/img\/crew-22241.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/emile-perron-190221.jpg": {
-		"ft": 16384,
-		"iS": 3004832,
-		"oA": 0,
-		"oAP": "\/assets\/img\/emile-perron-190221.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -107,36 +66,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/neonbrand-226736.jpg": {
-		"ft": 16384,
-		"iS": 2360091,
-		"oA": 0,
-		"oAP": "\/assets\/img\/neonbrand-226736.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/paul-bence-296720.jpg": {
-		"ft": 16384,
-		"iS": 2992747,
-		"oA": 0,
-		"oAP": "\/assets\/img\/paul-bence-296720.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/seth-doyle-188649.jpg": {
-		"ft": 16384,
-		"iS": 2920007,
-		"oA": 0,
-		"oAP": "\/assets\/img\/seth-doyle-188649.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/build\/.gitignore": {
