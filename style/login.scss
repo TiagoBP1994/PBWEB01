@@ -1,11 +1,13 @@
 @import 'setup';
 
-body #login{
+body #login,
+body #signup{
     overflow: hidden;
     color: $white;
 }
 
-#login{
+#login, 
+#signup {
     width: 100%;
 }
 
@@ -79,12 +81,17 @@ body #login{
     padding: 5% 0;
 }
 
-.input-container {
+#login .input-container {
     margin: 0 auto;
     position: relative;
     width: 100%;
     margin-top: 30px;
-
+}
+#signup .input-container {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
 }
 
 #login input{
@@ -96,7 +103,15 @@ body #login{
     padding-bottom: 5px;
     padding-top: 35px;
 }
-
+#signup input{
+    color: $white;
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    padding-top: 25px;
+}
 .forgot{
     cursor: pointer;
     font-size: 0.8em;
@@ -107,6 +122,25 @@ body #login{
         color: $white;
         text-decoration: none;
     }    
+}
+
+.already{
+    cursor: pointer;
+    font-size: 0.8em;
+    padding-top: 15px;
+    color: $white;
+    float: right;
+    &:hover {
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+#login a{
+    color: $white;
+    &:hover{
+        color: $white;
+    }
 }
 
 .login-btn,
@@ -133,6 +167,10 @@ body #login{
     background: -webkit-linear-gradient(left, #a7183f 0%, #f0493f 100%);
     background: linear-gradient(to right, #a7183f 0%, #f0493f 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7183f', endColorstr='#f0493f', GradientType=1);
+}
+
+#signup .signup-btn{
+    margin-top: 30px;
 }
 
 .or-login{

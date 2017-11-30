@@ -95,7 +95,7 @@ h2 {
 .mobile-menu span {
     color: $white;
     font-size: 1.3em;
-    padding-top: 7px;
+    padding-top: 8px;
 }
 
 .avatar {
@@ -130,7 +130,7 @@ h2 {
     text-align: center;
     color: $white;
     font-size: 1.3em;
-    padding-top: 6px;
+    padding-top: 7px;
 }
 
 .main-ul {
@@ -539,6 +539,54 @@ h2 {
     border-right: $white solid 1px;
 }
 
+
+//Contact
+
+.contact-panel{
+    display: none;
+    background: $white;
+    height: 100vh;
+    width: 30%;
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+}
+.contact-panel h2{
+    float: left;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.contact-info{
+    padding: 25px 0;
+    border-bottom: 1px solid $darkGrey;
+
+}
+.contact-panel{
+    overflow: hidden;
+}
+.contact-info-container{
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contact-avatar{
+    padding-top: 10px;
+}
+.contact-avatar img{
+    width: 100%;
+}
+.contact-job-title{
+    font-size: 1.2em;
+}
+.contact-extra-into{
+    padding-top: 15px;
+}
+
+
 @media screen and (max-width: 1199px){
     .contact-btn{
         margin-left: -20%;
@@ -560,17 +608,16 @@ h2 {
     }
 }
 @media screen and (min-width: 991px) {
-
-
-
     .avatar img {
         width: 33%;
     }
-
-
 }
 
 @media screen and (max-width: 991px) {
+
+    .contact-panel {
+        width: 40%;
+    }
 
     .side-bar,
     .side-header {
@@ -683,12 +730,22 @@ h2 {
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px){
+    .contact-avatar{
+        display: none;
+    }
+    .contact-panel {
+        width: 50%;
+    }
+}
 
+@media screen and (max-width: 640px) {
+    .contact-panel {
+        width: 70%;
+    }
     .avatar img {
         width: 27%;
     }
-    
     .header h1{
         margin-top: 0px;
     }

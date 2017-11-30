@@ -44,3 +44,52 @@
         
         <!-- mobile menu end -->
         <!-- main container starts-->
+
+<!-- contact section -->
+        <div class="contact-panel">
+            <h2>Contact</h2>
+            <div class="close-btn">
+                <div class="fa fa-close"></div>
+            </div>
+                <div class="contact-info-container">
+
+                <div class="contact-info">
+                    <div class="contact-job-title">Chefkonsulent / BI Specialist</div>
+                    <div class="contact-extra-into">
+                        <div class="contact-name">Valerie Hansen</div>
+                        <div class="contact-email"><span class="fa fa-envelope"></span> vah@epicosearch.dk</div>
+                        <div class="contact-phone"><span class="fa fa-phone"></span> +45 53 74 71 53</div>
+                    </div>
+                </div>
+
+                 <div class="contact-info">
+                    <div class="contact-job-title">Chefkonsulent / BI Specialist</div>
+                    <div class="contact-extra-into">
+                        <div class="contact-name">Valerie Hansen</div>
+                        <div class="contact-email"><span class="fa fa-envelope"></span> vah@epicosearch.dk</div>
+                        <div class="contact-phone"><span class="fa fa-phone"></span> +45 53 74 71 53</div>
+                    </div>
+                </div>
+
+                 <div class="contact-info">
+                    <div class="contact-job-title">Chefkonsulent / BI Specialist</div>
+                    <div class="contact-extra-into">
+                        <div class="contact-name">Valerie Hansen</div>
+                        <div class="contact-email"><span class="fa fa-envelope"></span> vah@epicosearch.dk</div>
+                        <div class="contact-phone"><span class="fa fa-phone"></span> +45 53 74 71 53</div>
+                    </div>
+                </div>
+
+                 <div class="contact-info">
+                    <div class="contact-job-title">Chefkonsulent / BI Specialist</div>
+                    <div class="contact-extra-into">
+                        <div class="contact-name">Valerie Hansen</div>
+                        <div class="contact-email"><span class="fa fa-envelope"></span> vah@epicosearch.dk</div>
+                        <div class="contact-phone"><span class="fa fa-phone"></span> +45 53 74 71 53</div>
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>

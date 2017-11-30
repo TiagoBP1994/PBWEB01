@@ -29,7 +29,7 @@
         </div>
         <div class="clear"></div>
         <div class="login-btn">Login</div>
-        <div class="signup-btn">Sign up</div>
+        <a href="signup.php"><div class="signup-btn">Sign up</div></a>
         <div class="or-login">or log in with</div>
         <div class="linkedin-btn"><span class="fa fa-linkedin"></span> Login with Linkedin</div>
       </div>

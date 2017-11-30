@@ -22,5 +22,16 @@ $(document).ready(function (){
         $('.side-bar').removeClass('hide');
    });
 
+   
+   //Toggle contact panel
+    $('.contact-panel .close-btn').click(function () {
+        $('.contact-panel').addClass('hide');
+        $('.contact-panel').removeClass('show');
+    });
+    $('.main .header .side-header .contact-btn').click(function () {
+        $('.contact-panel').addClass('show');
+        $('.contact-panel').removeClass('hide');
+    });
+
 });
 
