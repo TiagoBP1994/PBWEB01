@@ -1,4 +1,5 @@
 <?php include 'head.php';?>
+<?php include 'page-setup.php';?>
 
 <div class="container">
     <div class="row">

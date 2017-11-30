@@ -1,4 +1,5 @@
 <?php include 'head.php';?>
+<?php include 'page-setup.php';?>
 
 <div class="container">
     <div class="row">
@@ -57,47 +58,56 @@
             <div class="job-highlight-section col-sm-12">
                 <h2>New Jobs For You</h2>
 
-                <div class="job-container col-md-4 col-sm-6">
-                    <h4 class="job-title">Angular Developer</h4>
-                    <p class="job-company"><span class="fa fa-group"></span>ScanCommerce A/S</p>
-                    <p class="job-location"><span class="fa fa-map-marker"></span>Aarhus, Denmark</p>
-                    <div class="job-description-container">
-                        <p class="detail">Description</p>
-                        <p class="job-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
-                            Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
-                        </p>
-                    </div>
-                    <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
+              <!-- #1 -->
+            <div class="job-container col-md-4 col-sm-6"> 
+                <a href="job-detail.php">
+                <h4 class="job-title">Angular Developer</h4>
+                <p class="job-company"><span class="fa fa-group"></span>ScanCommerce A/S</p>
+                <p class="job-location"><span class="fa fa-map-marker"></span>Aarhus, Denmark</p>
+                <div class="job-description-container">
+                    <p class="detail">Description</p>
+                    <p class="job-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
+                        Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
+                    </p>
                 </div>
+                <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
+                </a>
+            </div>
+            
+            <!-- #2 -->
+            <div class="job-container col-md-4 col-sm-6">
+                  <a href="job-detail.php">
+                <h4 class="job-title">Angular Developer</h4>
+                <p class="job-company"><span class="fa fa-group"></span>ScanCommerce A/S</p>
+                <p class="job-location"><span class="fa fa-map-marker"></span>Aarhus, Denmark</p>
+                <div class="job-description-container">
+                    <p class="detail">Description</p>
+                    <p class="job-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
+                        Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
+                    </p>
+                </div>
+                <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
+                </a>
+            </div>
 
-                <div class="job-container col-md-4 col-sm-6">
-                    <h4 class="job-title">Angular Developer</h4>
-                    <p class="job-company"><span class="fa fa-group"></span>ScanCommerce A/S</p>
-                    <p class="job-location"><span class="fa fa-map-marker"></span>Aarhus</p>
-                    <div class="job-description-container">
-                        <p class="detail">Description</p>
-                        <p class="job-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
-                            Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
-                        </p>
-                    </div>
-                    <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
+              <!-- #3 -->
+            <div class="job-container col-md-4 col-sm-6"> 
+                <a href="job-detail.php">
+                <h4 class="job-title">Angular Developer</h4>
+                <p class="job-company"><span class="fa fa-group"></span>ScanCommerce A/S</p>
+                <p class="job-location"><span class="fa fa-map-marker"></span>Aarhus, Denmark</p>
+                <div class="job-description-container">
+                    <p class="detail">Description</p>
+                    <p class="job-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
+                        Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
+                    </p>
                 </div>
-
-                <div class="job-container col-md-4 col-sm-6">
-                    <h4 class="job-title">Angular Developer</h4>
-                    <p class="job-company"><span class="fa fa-group"></span>ScanCommerce A/S</p>
-                    <p class="job-location"><span class="fa fa-map-marker"></span>Aarhus</p>
-                    <div class="job-description-container">
-                        <p class="detail">Description</p>
-                        <p class="job-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque neque, tempus nec iaculis at, consequat auctor metus. Maecenas in est vel dolor laoreet scelerisque et euismod dui. 
-                            Mauris vulputate metus sed sapien volutpat, ut dapibus elit congue. Donec quis dapibus justo.
-                        </p>
-                    </div>
-                    <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
-                </div>
+                <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
+                </a>
+            </div>
 
             </div>
 

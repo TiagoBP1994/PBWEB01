@@ -22,6 +22,9 @@
 .read-more span{
     padding-left: 5px;
 }
+.news-title{
+    margin-top: 15px;
+}
 .category{
     float: right;
     padding-right: 5px;
@@ -51,4 +54,8 @@
 .news-body-container img{
     width: 100%;
     padding-bottom: 40px;
+}
+
+#news .arrow-bg{
+    width: 10%;
 }

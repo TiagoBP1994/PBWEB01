@@ -68,6 +68,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/Webp.net-compress-image2.jpg": {
+		"ft": 16384,
+		"iS": 742543,
+		"oA": 0,
+		"oAP": "\/assets\/img\/Webp.net-compress-image2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/Webp.net-resizeimage.jpg": {
+		"ft": 16384,
+		"iS": 68879,
+		"oA": 0,
+		"oAP": "\/assets\/img\/Webp.net-resizeimage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/build\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -141,6 +161,13 @@
 		"oAP": "\/news.php",
 		"oF": 0
 		},
+	"\/page-setup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-setup.php",
+		"oF": 0
+		},
 	"\/production\/js\/script-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -150,6 +177,16 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/production\/style\/login-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/production\/style\/login-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/production\/style\/style-min.css": {
 		"aP": 1,
@@ -219,15 +256,18 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/style\/news.css": {
-		"aP": 1,
+	"\/style\/login.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style\/news-min.css",
-		"oF": 0,
-		"oS": 3
+		"oAP": "\/production\/style\/login-min.css",
+		"oF": 3,
+		"oS": 3,
+		"uL": 1
 		},
 	"\/style\/news.scss": {
 		"aP": 0,

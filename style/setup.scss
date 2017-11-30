@@ -28,6 +28,10 @@ body {
     display: flex !important;
 }
 
+.clear{
+    clear: both;
+}
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -57,3 +61,4 @@ a {
         text-decoration: none;
     }
 }
+
