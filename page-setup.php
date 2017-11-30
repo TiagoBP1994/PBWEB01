@@ -1,7 +1,7 @@
     <!-- sidebar starts -->
         <div class="side-bar">
             <div class="logo">
-                <img src="assets/img/logo_epico_purple.png" alt="Epico Logo">
+                <a href="index.php"><img src="assets/img/logo_epico_purple.png" alt="Epico Logo"></a>
             </div>
             <div class="avatar">
                 <img src="assets/img/avatar-male.jpeg" alt="avatar img">
@@ -35,7 +35,7 @@
                 <div class="fa fa-bell"></div>        
             </div>
             <div class="logo">
-                <img src="assets/img/logo_epico_purple.png" alt="Epico Logo">
+               <a href="index.php"><img src="assets/img/logo_epico_purple.png" alt="Epico Logo"></a>
             </div>
             <div class="mobile-menu">
                 <span class="fa fa-bars"></span>
@@ -43,6 +43,7 @@
         </div>
         
         <!-- mobile menu end -->
+
         <!-- main container starts-->
 
 <!-- contact section -->

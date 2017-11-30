@@ -102,6 +102,13 @@
 		"oAP": "\/head.php",
 		"oF": 0
 		},
+	"\/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/header.php",
+		"oF": 0
+		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -230,59 +237,7 @@
 		"oAP": "\/signup.php",
 		"oF": 0
 		},
-	"\/style\/browse-job.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/production\/style\/style-min.css",
-		"oF": 3,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/style\/dashboard.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/production\/style\/style-min.css",
-		"oF": 3,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/style\/login.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/production\/style\/login-min.css",
-		"oF": 3,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/style\/news.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/production\/style\/style-min.css",
-		"oF": 3,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/style\/setup.scss": {
+	"\/style\/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
