@@ -24,7 +24,8 @@
                 <li class="main-li active menu-account"><a href="account.php"><span class="menu-element">Account</span>
                 <span class="menu-arrow fa fa-angle-right"></span></a></li>
             </ul>
-            <div class="logout">
+            <div class="side-bar-footer">
+                <div class="contact-btn">Contact</div>
                 <div class="logout-btn">Logout</div>
             </div>
         </div>

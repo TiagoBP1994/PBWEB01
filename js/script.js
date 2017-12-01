@@ -9,7 +9,7 @@ $(document).ready(function (){
 
    $('.profile-completion-header .close-btn').click(function(){
         $(this).parent().parent().fadeOut();
-        var progression = true;
+        var progression = false;
    });
 
 //Toggle menu
@@ -40,26 +40,18 @@ $(document).ready(function (){
             // TOGGLE (SHOW OR HIDE) NOTIFICATION WINDOW.
             $('#notifications').fadeToggle('fast', 'linear', function () {
                 if ($('#notifications').is(':hidden')) {
-                    $('.notification-btn').css('background-color', '#2E467C');
+                    $('.notification-btn').css('background-color', '#D1D1D1');
                 }
                 else $('.notification-btn').css('background-color', '#D1D1D1');   
             });
-
             return false;
         });
 
         // HIDE NOTIFICATIONS WHEN CLICKED ANYWHERE ON THE PAGE.
-        $(document).click(function () {
+        $(document).click(function(){
             $('#notifications').hide();
-
-            // CHECK IF NOTIFICATION COUNTER IS HIDDEN.
-            if ($('#noti_Counter').is(':hidden')) {
-                // CHANGE BACKGROUND COLOR OF THE BUTTON.
-                $('#noti_Button').css('background-color', '#2E467C');
-            }
         });
-
-        $('#notifications').click(function () {
+        $('#notifications').click(function(){
             return false;       // DO NOTHING WHEN CONTAINER IS CLICKED.
         });
     });
