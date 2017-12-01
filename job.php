@@ -13,10 +13,25 @@
         <h3 class="filter-title">Filter</h3>
         <div class="filter-container">    
             <div class="main-filter">
-                <div class="filter-box filter-experience">Experience <span class="fa fa-angle-down"></span></div>
-                <div class="filter-box filter-location">Location <span class="fa fa-angle-down"></span></div>
-                <div class="filter-box filter-skill">Skill <span class="fa fa-angle-down"></span></div>
-                <div class="filter-box filter-sort-by">Sort By <span class="fa fa-angle-down"></span></div>
+                <div class="filter-box filter-experience">
+                    Experience <span class="fa fa-angle-down"></span>
+                     <div id="experience-panel">
+                        <div class="filter-panel-container">
+                            <div class="filter-panel-p-container"><input type="checkbox"><p class="filter-panel-p">Entry</p></div>
+                            <div class="filter-panel-p-container"><input type="checkbox"><p class="filter-panel-p">Intermediate</p></div>
+                            <div class="filter-panel-p-container"><input type="checkbox"><p class="filter-panel-p">Expert</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-box filter-location">
+                    Location <span class="fa fa-angle-down"></span>
+                </div>
+                <div class="filter-box filter-skill">
+                    Skill <span class="fa fa-angle-down"></span>
+                </div>
+                <div class="filter-box filter-sort-by">
+                    Sort By <span class="fa fa-angle-down"></span>
+                </div>
                 <div class="filter-search-box">
                     <input class="filter-search" type="text" name="search" placeholder="Search Jobs">
                     <div class="arrow-bg">

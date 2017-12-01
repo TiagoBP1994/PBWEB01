@@ -33,10 +33,8 @@ $(document).ready(function (){
         $('.contact-panel').removeClass('hide');
     });
 
-    $(document).ready(function () {
-
+//SHOW / HIDE NOTIFICATION
         $('.notification-btn').click(function () {
-
             // TOGGLE (SHOW OR HIDE) NOTIFICATION WINDOW.
             $('#notifications').fadeToggle('fast', 'linear', function () {
                 if ($('#notifications').is(':hidden')) {
@@ -46,7 +44,6 @@ $(document).ready(function (){
             });
             return false;
         });
-
         // HIDE NOTIFICATIONS WHEN CLICKED ANYWHERE ON THE PAGE.
         $(document).click(function(){
             $('#notifications').hide();
@@ -54,7 +51,22 @@ $(document).ready(function (){
         $('#notifications').click(function(){
             return false;       // DO NOTHING WHEN CONTAINER IS CLICKED.
         });
-    });
+
+
+        // SHOW / HIDE EXPERIENCE        
+        $('.filter-experience').click(function () {
+            // TOGGLE (SHOW OR HIDE) NOTIFICATION WINDOW.
+            $('#experience-panel').fadeToggle('fast', 'linear', function () {
+            });
+            return false;
+        });
+        // HIDE PANEL WHEN CLICKED ANYWHERE ON THE PAGE.
+        $(document).click(function () {
+            $('#experience-panel').hide();
+        });
+        $('#experience-panel').click(function () {
+            return false; // DO NOTHING WHEN CONTAINER IS CLICKED.
+        });
 
 });
 
