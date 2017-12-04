@@ -30,44 +30,22 @@
                     $json = file_get_contents('http://epico.dk/umbraco/surface/home/AllAdvertising');
                     $data = json_decode($json,false); // false gives object / true associative array
                     
-                    /*for($i=0; $i<=10; $i++){
-                        ?></br><?php
-                        echo '$i = ' . $i;
-                        ?></br><?php
-                        /*
-                        $q = $data[$i]['JobBeginDate'];
-                        $p = $data[$i]['Applicationdeadline'];
-                        $jbd = filter_var($q, FILTER_SANITIZE_NUMBER_INT);
-                        $appd = filter_var($p, FILTER_SANITIZE_NUMBER_INT);
-                        
-                        $tsSec1 = $jbd / 1000;
-                        $tsSec2 = $appd / 1000;
-                        
-                        ?></br><?php
-                        echo 'Job Begin Date ' . date( 'Y-m-d', $tsSec1 );
-                        ?></br><?php
-                        echo 'Application deadline ' . date( 'Y-m-d', $tsSec2 );
-                        
-                        ?></br><?php
-                        var_dump($data[$i]);*/
-                        /*$dat = $data[$i];
-                        var_dump($dat->Id);
-                        $jb = new job($json);
-                        var_dump($jb);
-                        /*echo 'ID:';
-                        var_dump($data[$i]['Id']);*/
-                    
-                    /*};*/
-                    $jb = new job($json);
-                    //print_r($jb);
-                    /*$i=0;
-                    foreach ($jb as $job){
-                        print $jb[$i];
-                    }*/
-                    var_dump($jb);
-                    //print_r($jb->Id);
-                    //job::setData($data);
-                    //job::displayJobs();
+                    foreach ($data as $data){
+                        $jb = new job($data);
+                        print_r ($jb->Id. '</br>');
+                        print_r ($jb->Description. '</br>');
+                        print_r ($jb->HeadLine. '</br>');
+                        print_r ($jb->Location. '</br>');
+                        print_r ('Job Begin Date ' . date( 'Y-m-d', (filter_var($jb->JobBeginDate, FILTER_SANITIZE_NUMBER_INT) / 1000)) . '</br>');
+                        print_r ('Application deadline ' . date( 'Y-m-d', (filter_var($jb->Applicationdeadline, FILTER_SANITIZE_NUMBER_INT) / 1000)) . '</br>');
+                        print_r ($jb->Duration. '</br>');
+                        print_r ($jb->Country. '</br>');
+                        print_r ($jb->ExternalAdIsPublished. '</br>');
+                        print_r ($jb->AdvertisingType. '</br>');
+                        print_r ($jb->SearchEmail. '</br>');
+                        print_r ($jb->Footer. '</br>');     
+                        print_r('</br>' . 'END OF JOB ' . $jb->Id . '</br>'. '</br>'. '</br>'); 
+                    }
                     ?>
                     
                     <!--<div class="panel-heading">
