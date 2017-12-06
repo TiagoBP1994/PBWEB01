@@ -16,16 +16,6 @@
 		"oAP": "\/account.php",
 		"oF": 0
 		},
-	"\/assets\/img\/avatar-female.jpeg": {
-		"ft": 16384,
-		"iS": 5963,
-		"oA": 0,
-		"oAP": "\/assets\/img\/avatar-female.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/avatar-male.jpeg": {
 		"ft": 16384,
 		"iS": 6452,
@@ -46,15 +36,14 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/circle.png": {
-		"ft": 32768,
-		"iS": 9775,
+	"\/assets\/img\/ilya-pavlov-87438.jpg": {
+		"ft": 16384,
+		"iS": 2115658,
 		"oA": 0,
-		"oAP": "\/assets\/img\/circle.png",
+		"oAP": "\/assets\/img\/ilya-pavlov-87438.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/logo_epico.png": {
@@ -79,6 +68,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/Webp.net-compress-image2.jpg": {
+		"ft": 16384,
+		"iS": 742543,
+		"oA": 0,
+		"oAP": "\/assets\/img\/Webp.net-compress-image2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/Webp.net-resizeimage.jpg": {
+		"ft": 16384,
+		"iS": 68879,
+		"oA": 0,
+		"oAP": "\/assets\/img\/Webp.net-resizeimage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/build\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -93,11 +102,25 @@
 		"oAP": "\/head.php",
 		"oF": 0
 		},
+	"\/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/header.php",
+		"oF": 0
+		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/job-detail.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/job-detail.php",
 		"oF": 0
 		},
 	"\/job.php": {
@@ -111,11 +134,18 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/script-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
+		"oA": 0,
+		"oAP": "\/production\/js\/script-min.js",
+		"oF": 3,
+		"sC": 0,
+		"tS": 1
+		},
+	"\/Log-in.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Log-in.zip",
+		"oF": 0
 		},
 	"\/login.php": {
 		"cB": 0,
@@ -124,12 +154,56 @@
 		"oAP": "\/login.php",
 		"oF": 0
 		},
-	"\/news": {
+	"\/news-detail.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/news",
+		"oAP": "\/news-detail.php",
 		"oF": 0
+		},
+	"\/news.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/news.php",
+		"oF": 0
+		},
+	"\/page-setup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-setup.php",
+		"oF": 0
+		},
+	"\/production\/js\/script-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/production\/js\/script-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/production\/style\/login-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/production\/style\/login-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/production\/style\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/production\/style\/style-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/README.html": {
 		"cB": 0,
@@ -163,16 +237,6 @@
 		"oAP": "\/signup.php",
 		"oF": 0
 		},
-	"\/style\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/style\/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/style\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -181,9 +245,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style\/style.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "\/production\/style\/style-min.css",
+		"oF": 3,
+		"oS": 3,
 		"uL": 1
 		}
 	},

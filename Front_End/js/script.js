@@ -1,57 +1,69 @@
-$(document).ready(function (){
+$(document).ready(function () {
 
-   $('.profile-completion-header .close-btn').click(function(){
+    //progress
+    var progression = true;
+
+    if (progression == false) {
+        $('.profile-completion-section').addClass('hide');
+    }
+
+    $('.profile-completion-header .close-btn').click(function () {
         $(this).parent().parent().fadeOut();
-   });
+        var progression = false;
+    });
 
-//Toggle menu
-   $('.main-container .side-bar .close-menu').click(function () {
+    //Toggle menu
+    $('.main-container .side-bar .close-menu').click(function () {
         $('.side-bar').addClass('hide');
         $('.side-bar').removeClass('show-flex');
     });
     $('.main-container .mobile-header .mobile-menu').click(function () {
         $('.side-bar').addClass('show-flex');
         $('.side-bar').removeClass('hide');
-   });
+    });
 
 
-   $('.job-container:last').addClass("no-border-right");
-   $('.news-container:last').addClass("no-border-right");
+    //Toggle contact panel
+    $('.contact-panel .close-btn').click(function () {
+        $('.contact-panel').addClass('hide');
+        $('.contact-panel').removeClass('show');
+    });
+    $('.main .header .side-header .contact-btn').click(function () {
+        $('.contact-panel').addClass('show');
+        $('.contact-panel').removeClass('hide');
+    });
 
-    class Job {
-        // constructor(headline, location, description, country) {
-        //     this.headline = headline;
-        //     this.location = location;
-        //     this.description = description;
-        //     this.country = country;
-        // }
-        template() {
-            let jobTemplate = `
-			<div class="job-container col-md-4 col-sm-6">
-            <h4 class="job-title">${this.headline}</h4>
-            <p class="job-company"><span class="fa fa-group"></span>ScanCommerce A/S</p>
-            <p class="job-location"><span class="fa fa-map-marker"></span>${this.location}, ${this.country}</p>
-            <div class="job-description-container">
-                <p class="detail">Description</p>
-                <p class="job-description">${this.description}</p>
-            </div>
-              <a class="read-more" href="#">Read More <span class="fa fa-angle-right"></span></a>
-            </div>
-			`;
-            $(jobTemplate).appendTo('.job-container');
-        }
-    }
+    //SHOW / HIDE NOTIFICATION
+    $('.notification-btn').click(function () {
+        // TOGGLE (SHOW OR HIDE) NOTIFICATION WINDOW.
+        $('#notifications').fadeToggle('fast', 'linear', function () {
+            if ($('#notifications').is(':hidden')) {
+                $('.notification-btn').css('background-color', '#D1D1D1');
+            } else $('.notification-btn').css('background-color', '#D1D1D1');
+        });
+        return false;
+    });
+    // HIDE NOTIFICATIONS WHEN CLICKED ANYWHERE ON THE PAGE.
+    $(document).click(function () {
+        $('#notifications').hide();
+    });
+    $('#notifications').click(function () {
+        return false; // DO NOTHING WHEN CONTAINER IS CLICKED.
+    });
 
-   //AJAX
-    $.ajax({
-        type: "GET",  
-        url: "http://epico.dk/umbraco/surface/home/AllAdvertising",
-        success: function (response) {
-            let data = response;
-            console.log(data);
 
-        }
+    // SHOW / HIDE EXPERIENCE        
+    $('.filter-experience').click(function () {
+        // TOGGLE (SHOW OR HIDE) NOTIFICATION WINDOW.
+        $('#experience-panel').fadeToggle('fast', 'linear', function () {});
+        return false;
+    });
+    // HIDE PANEL WHEN CLICKED ANYWHERE ON THE PAGE.
+    $(document).click(function () {
+        $('#experience-panel').hide();
+    });
+    $('#experience-panel').click(function () {
+        return false; // DO NOTHING WHEN CONTAINER IS CLICKED.
     });
 
 });
-
