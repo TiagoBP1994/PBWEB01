@@ -5,6 +5,8 @@
         <group>
             <file>file:/C:/xampp/htdocs/PhpProject_12/resources/views/home.blade.php</file>
             <file>file:/C:/xampp/htdocs/PhpProject_12/resources/views/layouts/app.blade.php</file>
+            <file>file:/C:/xampp/htdocs/PhpProject_12/resources/views/news.blade.php</file>
+            <file>file:/C:/xampp/htdocs/PhpProject_12/app/news.php</file>
             <file>file:/C:/xampp/htdocs/PhpProject_12/app/Http/Controllers/HomeController.php</file>
             <file>file:/C:/xampp/htdocs/PhpProject_12/app/job.php</file>
         </group>

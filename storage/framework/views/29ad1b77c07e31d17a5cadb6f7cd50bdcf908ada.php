@@ -29,9 +29,15 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="<?php echo e(url('/')); ?>">
+                    <!--<a class="navbar-brand" href="<?php echo e(url('/')); ?>">
                         <?php echo e(config('app.name', 'Laravel')); ?>
 
+                    </a>-->
+                    <a class="navbar-brand" href="<?php echo e(url('/home')); ?>">
+                        Home
+                    </a>
+                    <a class="navbar-brand" href="<?php echo e(url('/news')); ?>">
+                        News
                     </a>
                 </div>
 
@@ -60,6 +66,11 @@
                                 </a>
 
                                 <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="<?php echo e(url('/profile')); ?>">
+                                            Profile
+                                        </a>
+                                    </li>
                                     <li>
                                         <a href="<?php echo e(route('logout')); ?>"
                                             onclick="event.preventDefault();

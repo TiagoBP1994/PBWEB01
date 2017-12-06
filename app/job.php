@@ -30,13 +30,14 @@ class job {
             }
             $this->{$key} = $value;
         } 
+        return $this;
     }
     
     static function displayJobs(){
-        $json = file_get_contents('http://epico.dk/umbraco/surface/home/AllAdvertising');
+        /*$json = file_get_contents('http://epico.dk/umbraco/surface/home/AllAdvertising');
         $data = json_decode($json,true);
 
-        print_r ($data);
+        print_r ($data);*/
     }
     
     function getData() {

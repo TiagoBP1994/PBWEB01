@@ -21,17 +21,19 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
                     </br>
                     
                     <?php
                     use App\job;
+                    
                     $json = file_get_contents('http://epico.dk/umbraco/surface/home/AllAdvertising');
                     $data = json_decode($json,false); // false gives object / true associative array
                     
                     foreach ($data as $data){
                         $jb = new job($data);
+                            
+                        print_r('<div class="panel panel-default">');  
+                        print_r('<div class="panel-body">');
                         print_r ($jb->Id. '</br>');
                         print_r ($jb->Description. '</br>');
                         print_r ($jb->HeadLine. '</br>');
@@ -44,15 +46,10 @@
                         print_r ($jb->AdvertisingType. '</br>');
                         print_r ($jb->SearchEmail. '</br>');
                         print_r ($jb->Footer. '</br>');     
-                        print_r('</br>' . 'END OF JOB ' . $jb->Id . '</br>'. '</br>'. '</br>'); 
+                        print_r('</div>');
+                        print_r('</div>');
                     }
                     ?>
-                    
-                    <!--<div class="panel-heading">
-                        Change your employment status.
-                        <input type="checkbox" name="employment_status"/> Employed
-                        <input type="checkbox" name="employment_status"/> Unemployed
-                    </div>-->
                 </div>
             </div>
         </div>

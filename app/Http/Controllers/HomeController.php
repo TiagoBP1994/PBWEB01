@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\job;
+//use App\job;
 
 class HomeController extends Controller
 {
@@ -24,7 +24,22 @@ class HomeController extends Controller
      */
     public function index()
     {
-        //auth()->user()->notify(new newJob());
         return view('home');
+    }
+    
+    public function news()
+    {
+        //auth()->user()->notify(new newJob());
+        return view('news');
+    }
+    
+    public function profile()
+    {
+        return view('profile');
+    }
+    
+    public function info($id)
+    {
+        return view('info');
     }
 }
