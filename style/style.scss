@@ -88,13 +88,11 @@ a {
     margin-top: 15px;
 }
 
-.notification-container{
+.notification-container {
     padding: 10px 0;
 }
 
-
 //NOTIFICATION STARTS
-
 #notifications {
     display: none;
     position: absolute;
@@ -106,17 +104,17 @@ a {
     -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
-
-    @media screen and (max-width: 991px){
+    @media screen and (max-width: 991px) {
         top: 0;
         left: 0;
     }
 }
-#notifications .notification-container{
-    height:300px;
+
+#notifications .notification-container {
+    height: 300px;
 }
 
-#notifications .notification-container .notification{
+#notifications .notification-container .notification {
     font-size: 0.9em;
     padding: 5px 5px 10px 5px;
     border-bottom: solid 1px rgba(100, 100, 100, .30);
@@ -132,7 +130,7 @@ a {
     border-color: transparent transparent #FFF;
     margin-top: -20px;
     margin-left: 300px;
-   }
+}
 
 #notifications h3 {
     display: block;
@@ -143,7 +141,7 @@ a {
     padding: 8px;
     margin: 0;
     border-bottom: solid 1px rgba(100, 100, 100, .30);
-   }
+}
 
 #notifications .seeAll {
     padding: 8px;
@@ -157,16 +155,12 @@ a {
     color: $darkGrey;
 }
 
- #notifications  .seeAll a:hover {
+#notifications .seeAll a:hover {
     color: $darkGrey;
     text-decoration: none;
 }
 
 //NOTIFICATION ENDS
-
-
-
-
 h1 {
     text-transform: uppercase;
     font-size: 2em;
@@ -178,7 +172,6 @@ h2 {
 }
 
 //DASHBAORD
-
 .main-container {
     height: 100%;
     display: -ms-flexbox;
@@ -358,24 +351,23 @@ h2 {
     padding-top: 4px;
 }
 
-.side-bar-footer{
-
+.side-bar-footer {
     display: flex;
     margin: 0 auto;
     margin-top: 80px;
-        @media screen and (min-width: 911px) {
-            margin-top: 65%;
-        }
+    @media screen and (min-width: 911px) {
+        margin-top: 65%;
+    }
 }
 
-.side-bar-footer .contact-btn{
+.side-bar-footer .contact-btn {
     margin: 0;
     width: 95px;
     float: none;
     font-size: 1em;
     margin: 10px;
     padding-top: 8px;
-    @media screen and (min-width: 911px){
+    @media screen and (min-width: 911px) {
         display: none;
     }
 }
@@ -654,8 +646,7 @@ h2 {
 .news-container {
     padding: 0px 25px 10px 25px;
     margin-top: 10px;
-    margin-bottom: 25px;
-    // border-right: 1px solid $lightGrey;
+    margin-bottom: 25px; // border-right: 1px solid $lightGrey;
 }
 
 .job-title,
@@ -740,11 +731,8 @@ h2 {
     border-right: $white solid 1px;
 }
 
-
 //Contact
-
-.contact-panel{
-
+.contact-panel {
     display: none;
     background: $white;
     height: 100vh;
@@ -757,40 +745,46 @@ h2 {
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
     z-index: 3;
 }
-.contact-panel h2{
+
+.contact-panel h2 {
     float: left;
     padding-left: 25px;
     padding-top: 10px;
 }
-.contact-info{
+
+.contact-info {
     padding: 25px 0;
     border-bottom: 1px solid $darkGrey;
-
 }
-.contact-panel{
+
+.contact-panel {
     overflow: hidden;
 }
-.contact-info-container{
+
+.contact-info-container {
     padding-top: 100px;
     padding-left: 30px;
     padding-right: 30px;
 }
-.contact-avatar{
+
+.contact-avatar {
     padding-top: 10px;
 }
-.contact-avatar img{
+
+.contact-avatar img {
     width: 100%;
 }
-.contact-job-title{
+
+.contact-job-title {
     font-size: 1.2em;
 }
-.contact-extra-into{
+
+.contact-extra-into {
     padding-top: 15px;
 }
 
-
-@media screen and (max-width: 1199px){
-    .contact-btn{
+@media screen and (max-width: 1199px) {
+    .contact-btn {
         margin-left: -20%;
     }
 }
@@ -809,6 +803,7 @@ h2 {
         display: none;
     }
 }
+
 @media screen and (min-width: 991px) {
     .avatar img {
         width: 33%;
@@ -816,111 +811,88 @@ h2 {
 }
 
 @media screen and (max-width: 991px) {
-
     .contact-panel {
         width: 40%;
     }
-
     .side-bar,
     .side-header {
         display: none;
     }
-
     .main {
         width: 100%;
         margin-left: 0;
     }
-
     .container {
         margin-top: 90px;
     }
-
     .side-bar {
         width: 100%;
         z-index: 3;
     }
-
     .container {
         margin-top: 90px;
     }
-
     .assignment-completion-header .details {
         padding-top: 10px;
     }
-
     .days-left {
         padding-bottom: 20px;
     }
-
     .assignment-completion-header .details {
         padding-top: 10px;
     }
-
     .job-highlight-section h2,
     .news-highlight-section h2 {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-
     .assignment-completion-level {
         margin-top: 30px;
     }
-
     .type-of-job {
         display: none;
     }
-
     .assignment-completion-header {
         padding-top: 10px;
     }
-
     .complete-profile {
         padding-bottom: 45px;
         margin-top: -10px;
     }
-
     .completion-level {
         margin-top: -15px;
     }
-
     .circle {
         padding-top: 90px;
     }
-
     .close-btn {
         margin-top: 25px;
         margin-right: 15px;
     }
-
     .notification-btn {
         float: none;
         margin-left: 20px;
         margin-top: 20px;
     }
-    
     .side-bar .logo img {
         margin-top: 5px;
         width: 80%;
         padding: 0;
         display: none;
     }
-
     .avatar {
         margin-top: 40px;
     }
-    .avatar img{
+    .avatar img {
         width: 20%;
     }
-
     .complete-profile a {
         float: left;
         padding-left: 25px;
     }
-
-    .job-highlight-section{
+    .job-highlight-section {
         margin-top: -20px;
     }
-
     .job-container,
     .news-container {
         padding-top: 10px;
@@ -928,11 +900,10 @@ h2 {
         border-right: 0px;
         border-bottom: 1px $lightGrey solid;
     }
-
 }
 
-@media screen and (max-width: 768px){
-    .contact-avatar{
+@media screen and (max-width: 768px) {
+    .contact-avatar {
         display: none;
     }
     .contact-panel {
@@ -947,10 +918,9 @@ h2 {
     .avatar img {
         width: 27%;
     }
-    .header h1{
+    .header h1 {
         margin-top: 0px;
     }
-
 }
 
 //JOB
@@ -1034,8 +1004,7 @@ input::placeholder {
 }
 
 //FILTER PANEL
-
-#experience-panel{
+#experience-panel {
     display: none;
     position: absolute;
     width: 330px;
@@ -1046,10 +1015,11 @@ input::placeholder {
     -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
-    @media screen and (min-width:991px){
+    @media screen and (min-width: 991px) {
         top: 180px;
     }
 }
+
 #experience-panel:before {
     content: '';
     display: block;
@@ -1062,15 +1032,17 @@ input::placeholder {
     margin-left: 10px;
 }
 
-.filter-panel-container{
+.filter-panel-container {
     display: flex;
     padding: 20px;
     flex-wrap: wrap;
 }
-.filter-panel-p-container{
+
+.filter-panel-p-container {
     width: 50%;
 }
-.filter-panel-p{
+
+.filter-panel-p {
     display: inline-block;
     padding-left: 10px;
 }
@@ -1470,4 +1442,28 @@ body #signup {
     .login-content {
         width: 60%;
     }
+}
+
+#signup h4 {
+    text-align: left;
+    font-size: 1em;
+    padding: 15px 0 5px 0;
+}
+
+.job-type-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-type-input {
+    width: auto !important;
+}
+
+.job-type {
+    display: inline-flex;
+}
+
+.job-type p {
+    display: inline;
+    padding: 3px 0 0 10px;
 }
